@@ -26,7 +26,7 @@ func main() {
 	longitud := len(meses)
 	capacidad := cap(meses)
 
-	fmt.Println("La longitud es: %v. La capacidad es: %v %p\n", longitud, capacidad, meses)
+	fmt.Printf("La longitud es: %v. La capacidad es: %v %p\n", longitud, capacidad, meses)
 
 	//RESUMEN
 	nums := []int{1, 2, 3, 4, 5, 6}
